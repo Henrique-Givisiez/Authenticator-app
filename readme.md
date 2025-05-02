@@ -7,32 +7,7 @@ Este projeto é uma aplicação web de autenticação baseada em TOTP (Time-base
 - **Criptografia**: `pyotp` (RFC 6238)
 - **QR Code**: `qrcode[pil]` gerado no backend
 
----
-
-## Funcionalidades
-
-- Geração de chave secreta TOTP
-- Criação de QR Code para configurar no app Authenticator (ou na própria página)
-- Verificação de códigos TOTP inseridos manualmente
-- Integração total entre frontend e backend
-
----
-
-## Estrutura do Projeto
-
-authenticator-app/
-├── backend/
-│ ├── app.py # Backend Flask
-│ ├── requirements.txt
-│ └── venv/ # (opcional) Ambiente virtual Python
-└── frontend/
-├── src/
-│ ├── App.jsx # Componente principal React
-│ ├── index.css # Tailwind CSS
-├── tailwind.config.js
-├── postcss.config.js
-└── package.json
-
+Foi criada com o objetivo de entender mais sobre 2FA com TOTP.
 ---
 
 ## Como executar
