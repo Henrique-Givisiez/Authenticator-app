@@ -8,6 +8,7 @@ Este projeto é uma aplicação web de autenticação baseada em TOTP (Time-base
 - **QR Code**: `qrcode[pil]` gerado no backend
 
 Foi criada com o objetivo de entender mais sobre 2FA com TOTP.
+
 ---
 
 ## Como executar
